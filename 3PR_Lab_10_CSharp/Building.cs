@@ -107,7 +107,7 @@ namespace _3PR_Lab_9_CSharp
 					sideLength = Convert.ToDouble(Console.ReadLine());
 					if (sideLength <= 0)
 						throw e = new Exception("Аргумент <= 0");
-				}
+				} 
 				catch (FormatException)
 				{
 					Console.Write("Неверный ввод длины стороны - она должна быть числом. Попробуйте еще раз: ");
