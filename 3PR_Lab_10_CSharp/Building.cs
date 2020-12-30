@@ -188,7 +188,7 @@ namespace _3PR_Lab_9_CSharp
 					flag = 0;
 				}
 			}
-			flag = 0;
+			flag = 0; 
 
 			facade.inputFacade();
 			// Расчет коэффицента устойчивости.
