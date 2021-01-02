@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace _3PR_Lab_9_CSharp
+namespace _3PR_Lab_10_CSharp
 {
 	class Facade
 	{

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace _3PR_Lab_9_CSharp
+namespace _3PR_Lab_10_CSharp
 {
 	class Building
 	{
@@ -115,7 +115,7 @@ namespace _3PR_Lab_9_CSharp
 				}
 				catch (Exception e)
 				{
-					Console.Write("Неверный ввод длины стороны - она должна быть положительным числом. Попробуйте еще раз: ");
+					Console.Write("Исключение: " + e.Message + "\nНеверный ввод длины стороны - она должна быть положительным числом. Попробуйте еще раз: ");
 					flag = 0;
 				}
 			}
@@ -138,7 +138,7 @@ namespace _3PR_Lab_9_CSharp
 				}
 				catch (Exception e)
 				{
-					Console.Write("Неверный ввод высоты фундамента - она должна быть положительным числом. Попробуйте еще раз: ");
+					Console.Write("Исключение: " + e.Message + "\nНеверный ввод высоты фундамента - она должна быть положительным числом. Попробуйте еще раз: ");
 					flag = 0;
 				}
 			}
@@ -161,7 +161,7 @@ namespace _3PR_Lab_9_CSharp
 				}
 				catch (Exception e)
 				{
-					Console.Write("Неверный ввод высоты этажа - она должна быть положительным числом. Попробуйте еще раз: ");
+					Console.Write("Исключение: " + e.Message + "\nНеверный ввод высоты этажа - она должна быть положительным числом. Попробуйте еще раз: ");
 					flag = 0;
 				}
 			}
@@ -184,7 +184,7 @@ namespace _3PR_Lab_9_CSharp
 				}
 				catch (Exception e)
 				{
-					Console.Write("Неверный ввод количества - оно должно быть положительным числом. Попробуйте еще раз: ");
+					Console.Write("Исключение: " + e.Message + "\nНеверный ввод количества - оно должно быть положительным числом. Попробуйте еще раз: ");
 					flag = 0;
 				}
 			}
